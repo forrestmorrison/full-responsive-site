@@ -88,7 +88,7 @@ img {
 
 .showcase .grid {
     overflow: visible;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 55% auto;
     gap: 30px;
 }
 
@@ -200,7 +200,7 @@ img {
 }
 
 /* Tablets and under */
-@media(max-width: 900px) {
+@media(max-width: 960px) {
     .grid,
     .showcase .grid,
     .stats .grid,
